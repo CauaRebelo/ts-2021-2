@@ -18,7 +18,7 @@ Nome: Cauã dos Santos Rebelo
 
 1. Quanto ao Processo de Teste de Software, responda as duas questões seguintes:
    1. (**0,5 ponto**) Defina os seguintes conceitos Processo de Teste de Software, Projeto de Teste de Software e Plano de Teste de Sofware.
-O projeto seria a estrutura dos elementos de testes e a aplicação dos casos de teste, o processo é divido em estruturação de etapas, atividades, artefatos, papeis e responsabilidades que buscam a padronização dos trabalhos e melhorar a organização e controle dos projetos de testes.
+O projeto seria a estrutura dos elementos de testes e a aplicação dos casos de teste, o processo é divido em estruturação de etapas, atividades, artefatos, papeis e responsabilidades que buscam a padronização dos trabalhos e melhorar a organização e controle dos projetos de testes. <font color="red"> E o Plano de Teste?</font>
 
 <p><font color="red">Nota 0,3</font></p>
 
@@ -31,7 +31,7 @@ O processo de teste ágil ocorre durante a fase do desenvolvimento frequentement
 <p><font color="red">Nota 1,0</font></p>
 
 3. (**1,0 ponto**) Cite pelo menos três características do Teste Exploratório.
-O teste exploratório é uma abordagem dos testes ágeis, tres caracteristicas unicas delas são: Pouco planejamento, maximo de execução, é um processo de teste iteravor e utiliza dados de testes feitos anteriomente para criar novos testes.
+O teste exploratório é uma abordagem dos testes ágeis, tres caracteristicas unicas delas são: Pouco planejamento, maximo de execução, é um processo de teste iteravor e utiliza dados de testes feitos anteriomente para criar novos testes. <font color="red">Teste Exploratório não é abordagem de teste ágil. É utilizado nas metodologias ágeis, mas existe muito antes de se pensar em agilidade.</font>
 <p><font color="red">Nota 0,5</font></p>
 
 4. Considere os arquivos .java (Banco.java, Agencia.java, Conta.java e BankValidator.java). Nos próprios arquivos .java estão definidas as regras para cadastramento de cada um deles (Banco, Agencia e Conta). Desta forma, pede-se:
@@ -103,6 +103,7 @@ O teste exploratório é uma abordagem dos testes ágeis, tres caracteristicas u
 
    **CT33:** Testar transferencia entre uma Conta e outra.
 
+   <font color="red">Cenários de Teste não são casos de Teste. Faltou ainda apresentar quais foram os critérios para a definição dos casos de teste necessários à cobertura dos cenários.</font>
    <p><font color="red">Nota 1,3</font></p>
 
    2. (2.0) Definir os casos de teste suficientes para a cobertura do teste de cada um dos cenários definidos. Documentar os casos de teste no seguinte padrão:
@@ -143,9 +144,10 @@ O teste exploratório é uma abordagem dos testes ágeis, tres caracteristicas u
    |CT33|132478, Corrente, agencia, 987648, Poupanca, agencia, 500|1500, 1500|
 
 <p><font color="red">Nota 1,5</font></p>
-
+<font color="red"> A relação casos de teste x cenários não é de 1:1 e sim de 1:n, desta forma faltam ainda a definição de vários cenários de teste e seus respectivos casos de teste. Exemplo: Fazer uma transferência entre contas, creditar rendimentos de poupança, debitar juros de cheque especial, etc.</font>
 3. (3.0 Pontos) Implementar (na linguagem de programação java) as classes para o teste da criação dos objetos e das movimentações financeiras envolvendo bancos e agências e contas.
 
+<font color="red">Você entregou 33 casos de teste, de um total de 71. Dos 33 entregues 9 não passaram.</font>
 <p><font color="red">Nota 1,38</font></p>
 
 
